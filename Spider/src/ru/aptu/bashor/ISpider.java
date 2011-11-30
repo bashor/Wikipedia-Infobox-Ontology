@@ -9,5 +9,5 @@ import java.io.IOException;
  * Time: 2:12 AM
  */
 public interface ISpider {
-    void Run(IWikiTitleIterator wikiTitleIterator, IWikiPageProcessor processor) throws IOException;
+    void run(IWikiTitleQueue wikiTitleIterator, IWikiPageProcessor processor) throws IOException;
 }

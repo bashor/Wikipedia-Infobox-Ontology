@@ -3,9 +3,14 @@ package ru.aptu.bashor;
 import java.io.IOException;
 
 public class Main {
+    final static String START_PAGE = "Category:People";
+
     public static void main(String[] args) throws IOException {
-        SpiderAssistent spiderAssistent = new SpiderAssistent("Category:People");
-        Spider spider = new Spider();
-        spider.Run(spiderAssistent, spiderAssistent);
+        Spider spider = new Spider(new WikiJavaProxy());
+        InfoboxExtractorFromWikiPage infoboxesAsText = new InfoboxExtractorFromWikiPage();
+
+        spider.run(new WikiTitleQueue(START_PAGE), infoboxesAsText);
+
+        InfoboxParser.parseAll(infoboxesAsText, new OntologyCreator());
     }
 }

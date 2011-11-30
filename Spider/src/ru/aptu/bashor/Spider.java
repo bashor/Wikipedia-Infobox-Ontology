@@ -5,25 +5,31 @@ package ru.aptu.bashor; /**
  * Time: 2:11 AM
  */
 
-import org.wikipedia.Wiki;
-
 import java.io.IOException;
+import java.util.Collections;
 
-public class Spider implements ISpider {
+public class Spider<T extends IWikimedia> implements ISpider {
     private static final String CATEGORY = "Category:";
-    private final Wiki wiki = new Wiki();
+    private final IWikimedia wikimedia;
 
-    public void Run(IWikiTitleIterator wikiTitleIterator, IWikiPageProcessor wikiPageProcessor) throws IOException {
+    Spider(IWikimedia wiki) {
+        wikimedia = wiki;
+    }
 
-        while (wikiTitleIterator.hasNext()) {
-            String pageTitle = wikiTitleIterator.next();
+    public void run(IWikiTitleQueue wikiTitleQueue, IWikiPageProcessor wikiPageProcessor) throws IOException {
+
+        while (!wikiTitleQueue.isEmpty()) {
+            String pageTitle = wikiTitleQueue.remove();
 
             if (pageTitle.startsWith(CATEGORY)) {
-                String[] members = wiki.getCategoryMembers(pageTitle.replace(CATEGORY, ""));
-                for (String str : members)
-                    wikiPageProcessor.processCategoryMember(str);
+                String[] members = wikimedia.getCategoryMembers(pageTitle.replace(CATEGORY, ""));
+                Collections.addAll(wikiTitleQueue, members);
             } else {
-                wikiPageProcessor.processPage(pageTitle, wiki.getSectionText(pageTitle, 0));
+                String[] newTitles = wikiPageProcessor.processPage(pageTitle, wikimedia.getSectionText(pageTitle, 0));
+                //TODO: drop
+                if (newTitles.length == 1 && newTitles[0].equals("STOP")) return;
+
+                Collections.addAll(wikiTitleQueue, newTitles);
             }
         }
     }

@@ -7,7 +7,6 @@ package ru.aptu.bashor;
  * Time: 2:17 AM
  */
 public interface IWikiPageProcessor {
-    void processCategoryMember(String data);
-
-    void processPage(String title, String content);
+    //    void processCategoryMember(String data);
+    String[] processPage(String title, String content);
 }

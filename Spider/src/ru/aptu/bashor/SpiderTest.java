@@ -11,7 +11,17 @@ import org.junit.Test;
  */
 public class SpiderTest extends TestCase {
     @Test
-    public void testRun() throws Exception {
+    public void testFindAllCategories() throws Exception {
+        assertTrue(false);
+    }
+
+    @Test
+    public void testFindAllPages() throws Exception {
+        assertTrue(false);
+    }
+
+    @Test
+    public void testFindAllCategoriesAndPages() throws Exception {
         assertTrue(false);
     }
 }
