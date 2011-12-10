@@ -4,23 +4,8 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5249987-46fe-43cd-9083-e3d5ad598f54" name="Default" comment="Implements: SpiderTest, WikiTitleQueueTest, InfoboxExtractorFromWikiPageTest, UtilitiesTest&#10;some fixes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/Utilities.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/UtilitiesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="d5249987-46fe-43cd-9083-e3d5ad598f54" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/IWikiPageProcessor.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/IWikiPageProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/IWikimedia.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/IWikimedia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPageTest.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/Main.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueue.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueueTest.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueueTest.java" />
     </list>
     <ignored path="Spider.iws" />
     <ignored path=".idea/workspace.xml" />
