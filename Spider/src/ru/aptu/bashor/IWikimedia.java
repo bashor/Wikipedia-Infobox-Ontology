@@ -1,5 +1,7 @@
 package ru.aptu.bashor;
 
+import java.util.Collection;
+
 /**
  * Created by IntelliJ IDEA.
  * User: zalim
@@ -7,7 +9,7 @@ package ru.aptu.bashor;
  * Time: 4:18 AM
  */
 public interface IWikimedia {
-    String[] getCategoryMembers(String name);
+    Collection<String> getCategoryMembers(String name);
 
     String getSectionText(String title, int number);
 

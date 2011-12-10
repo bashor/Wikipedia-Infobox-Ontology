@@ -26,11 +26,11 @@ public class WikiTitleQueue extends AbstractQueue<String> implements IWikiTitleQ
         }
     }
 
-    Comparator<String> comparator = new TitleComparator();
+    private final Comparator<String> comparator = new TitleComparator();
     private final Queue<String> _titleQueue = new PriorityQueue<String>(10, comparator);
     private final Set<String> _processedTitle = new HashSet<String>();
 
-    WikiTitleQueue(String startTitle) {
+    public WikiTitleQueue(String startTitle) {
         offer(startTitle);
     }
 

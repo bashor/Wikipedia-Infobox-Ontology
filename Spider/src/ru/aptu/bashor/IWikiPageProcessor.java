@@ -1,5 +1,7 @@
 package ru.aptu.bashor;
 
+import java.util.Collection;
+
 /**
  * Created by IntelliJ IDEA.
  * User: zalim
@@ -8,5 +10,5 @@ package ru.aptu.bashor;
  */
 public interface IWikiPageProcessor {
     //    void processCategoryMember(String data);
-    String[] processPage(String title, String content);
+    Collection<String> processPage(String title, String content);
 }

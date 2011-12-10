@@ -37,8 +37,6 @@ public class InfoboxParser {
 
             resultProcessor.add(dic);
         }
-
-
     }
 
 
