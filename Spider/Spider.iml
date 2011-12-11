@@ -9,6 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="wiki.java" exported="" />
     <orderEntry type="library" exported="" name="JUnit" level="project" />
+    <orderEntry type="library" exported="" name="log4j-1.2.16" level="project" />
   </component>
 </module>
 

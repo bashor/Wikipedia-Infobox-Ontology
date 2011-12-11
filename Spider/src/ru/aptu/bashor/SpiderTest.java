@@ -1,6 +1,7 @@
 package ru.aptu.bashor;
 
 import junit.framework.TestCase;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.*;
@@ -12,7 +13,7 @@ import java.util.*;
  * Time: 7:16 AM
  */
 public class SpiderTest extends TestCase {
-
+    public static final Logger LOG = Logger.getLogger(SpiderTest.class);
     private static final String CATEGORY = "Category:";
 
     class WikiBaseMock implements IWikimedia {
@@ -121,8 +122,10 @@ public class SpiderTest extends TestCase {
         try {
             spider.run(titleQueue, wikiPageProcessor);
         } catch (IOException e) {
-            //TODO: write to log
-            e.printStackTrace();
+            LOG.error(e.getMessage() + "\n" + e.getStackTrace());
+            return false;
+        } catch (Exception e) {
+            LOG.error(e.getMessage() + "\n" + e.getStackTrace());
             return false;
         }
         return true;

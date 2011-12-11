@@ -4,8 +4,17 @@
     <option name="SCOPE_TYPE" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5249987-46fe-43cd-9083-e3d5ad598f54" name="Default" comment="">
+    <list default="true" id="d5249987-46fe-43cd-9083-e3d5ad598f54" name="Default" comment="add log4j">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spider.iml" afterPath="$PROJECT_DIR$/Spider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/Main.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java" afterPath="$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java" />
     </list>
     <ignored path="Spider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +39,10 @@
     <SUITE FILE_PATH="coverage/Spider$UtilitesTest.ic" NAME="UtilitiesTest Coverage Results" MODIFIED="1323478371825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.aptu.bashor.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Spider$SpiderTest.ic" NAME="SpiderTest Coverage Results" MODIFIED="1323470370935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Spider$InfoboxExtractorFromWikiPageTest.ic" NAME="InfoboxExtractorFromWikiPageTest Coverage Results" MODIFIED="1323478389829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.aptu.bashor.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Spider$SpiderTest.ic" NAME="SpiderTest Coverage Results" MODIFIED="1323470370935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Spider$WikiTitleQueueTest.ic" NAME="WikiTitleQueueTest Coverage Results" MODIFIED="1323470385605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.aptu.bashor.*</FILTER>
     </SUITE>
@@ -58,8 +67,8 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -73,8 +82,8 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
@@ -92,8 +101,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -106,98 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WikiTitleQueue.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueue.java">
+      <file leaf-file-name="log4j.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/log4j.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="8" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.39490446">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoboxExtractorFromWikiPageTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UtilitiesTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/UtilitiesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="38" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OntologyCreator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/OntologyCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="58" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoboxParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="9" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpiderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="35" selection-start="3414" selection-end="3414" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2037#2045#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WikiJavaProxy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wiki.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki.java/src/org/wikipedia/Wiki.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6372" column="12" selection-start="236107" selection-end="236107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WikiTitleQueueTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
+            <state line="3" column="34" selection-start="125" selection-end="125" vertical-scroll-proportion="0.09375">
               <folding />
             </state>
           </provider>
@@ -222,22 +143,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/Main.java" />
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/IWikiPageProcessor.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/Utilitess.java" />
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/UtilitesTest.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/Utilites.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueue.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/IWikimedia.java" />
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java" />
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java" />
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueueTest.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPageTest.java" />
         <option value="$PROJECT_DIR$/src/ru/aptu/bashor/UtilitiesTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueue.java" />
+        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java" />
+        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java" />
+        <option value="$PROJECT_DIR$/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java" />
+        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/Main.java" />
+        <option value="$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java" />
       </list>
     </option>
   </component>
@@ -257,6 +178,54 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Security issues</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -293,13 +262,26 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Spider" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -325,23 +307,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bashor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -354,7 +323,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -363,9 +332,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLanguage" value="Java" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -375,11 +344,25 @@
       <recent name="ru.aptu.bashor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ru.aptu.bashor package Test in Spider ">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -438,6 +421,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -659,13 +651,42 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="6">
+    <configuration default="false" name="Main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.aptu.bashor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.aptu.bashor.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Spider" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SpiderTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.WikiTitleQueueTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.InfoboxExtractorFromWikiPageTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.UtilitiesTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.InfoboxParserTest" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.ru.aptu.bashor package Test in Spider " />
+      <item index="6" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -721,31 +742,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1442" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32742155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3968254" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24928162" sideWeight="0.67105263" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24928162" sideWeight="0.67105263" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3148148" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38359788" sideWeight="0.66736114" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3148148" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32407406" sideWeight="0.99701047" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33068782" sideWeight="0.4861111" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3227513" sideWeight="0.99701047" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2375" sideWeight="0.3888889" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.6005472" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33125" sideWeight="0.6851852" order="0" side_tool="false" content_ui="tabs" x="-1" y="-29" width="333" height="760" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38359788" sideWeight="0.0" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33125" sideWeight="0.6693122" order="0" side_tool="false" content_ui="tabs" x="-1" y="-29" width="333" height="760" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38359788" sideWeight="0.32777777" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3968254" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986842" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986842" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -782,7 +803,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implements: SpiderTest, WikiTitleQueueTest, InfoboxExtractorFromWikiPageTest, UtilitiesTest&#10;some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log4j" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -799,6 +820,7 @@
     <MESSAGE value="add JUnit and empty SpiderTest&#10;" />
     <MESSAGE value="split SpiderAssistent to WikiTitleQueue and InfoboxExtractorFromWikiPage&#10;add InfoboxParser&#10;" />
     <MESSAGE value="Implements: SpiderTest, WikiTitleQueueTest, InfoboxExtractorFromWikiPageTest, UtilitiesTest&#10;some fixes" />
+    <MESSAGE value="add log4j" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -820,124 +842,109 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../junit-4.10.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="540" selection-end="540" vertical-scroll-proportion="0.39895013">
-          <folding />
-        </state>
+        <state line="37" column="38" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/OntologyCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#358#366#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="13" column="58" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/IWikimedia.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="58" column="0" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+        <state line="12" column="47" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="34" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+        <state line="11" column="10" selection-start="314" selection-end="314" vertical-scroll-proportion="0.28639618">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="9" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0">
+        <state line="14" column="4" selection-start="313" selection-end="313" vertical-scroll-proportion="0.22727273">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki.java/src/org/wikipedia/Wiki.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6372" column="12" selection-start="236107" selection-end="236107" vertical-scroll-proportion="0.0">
+        <state line="6372" column="82" selection-start="236170" selection-end="236170" vertical-scroll-proportion="0.035128806">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="35" selection-start="3414" selection-end="3414" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2037#2045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/OntologyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="58" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+        <state line="124" column="65" selection-start="3550" selection-end="3550" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java">
+    <entry file="jar:///usr/lib/jvm/default-java/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/UtilitiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="38" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+        <state line="93" column="23" selection-start="2287" selection-end="2341" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiTitleQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="8" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.39490446">
+        <state line="34" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#843#851#0" expanded="true" />
+            <element signature="e#928#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/InfoboxExtractorFromWikiPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/WikiJavaProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="0.4878049">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/aptu/bashor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.27439025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="34" selection-start="125" selection-end="125" vertical-scroll-proportion="0.09375">
           <folding />
         </state>
       </provider>
@@ -1011,7 +1018,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1030,7 +1036,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JUnit</last-edited>
+          <last-edited>log4j-1.2.16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

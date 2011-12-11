@@ -16,6 +16,7 @@ public class Spider implements ISpider {
         wikimedia = wiki;
     }
 
+    //TODO: question: move parameters to constructor?
     public void run(IWikiTitleQueue wikiTitleQueue, IWikiPageProcessor wikiPageProcessor) throws IOException {
 
         while (!wikiTitleQueue.isEmpty()) {

@@ -12,6 +12,10 @@ import java.util.Map;
 public class InfoboxParser {
     private static final String InfoboxPrefix = "{{Infobox";
 
+    static public void parseAll(Iterable<String> infoboxes) {
+
+    }
+
     static public void parseAll(Iterable<String> infoboxes, IInfoboxParserResultProcessor resultProcessor) {
         for (String infobox : infoboxes) {
             if (!infobox.startsWith(InfoboxPrefix)) {

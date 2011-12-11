@@ -1,5 +1,6 @@
 package ru.aptu.bashor;
 
+import org.apache.log4j.Logger;
 import org.wikipedia.Wiki;
 
 import java.util.Arrays;
@@ -12,15 +13,14 @@ import java.util.Collection;
  * Time: 3:12 PM
  */
 public class WikiJavaProxy implements IWikimedia {
+    public static final Logger LOG = Logger.getLogger(WikiJavaProxy.class);
     private final Wiki wiki = new Wiki();
-
 
     public Collection<String> getCategoryMembers(String name) {
         try {
             return Arrays.asList(wiki.getCategoryMembers(name));
         } catch (Exception e) {
-            //TODO: write to log
-            e.printStackTrace();
+            LOG.error(e.getMessage() + "\n" + e.getStackTrace());
             return null;
         }
     }
@@ -29,8 +29,8 @@ public class WikiJavaProxy implements IWikimedia {
         try {
             return wiki.getSectionText(title, number);
         } catch (Exception e) {
-            //TODO: write to log
-            e.printStackTrace();
+            LOG.error(e.getMessage());
+            LOG.trace(e.getStackTrace());
             return null;
         }
     }

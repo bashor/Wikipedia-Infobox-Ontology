@@ -1,5 +1,7 @@
 package ru.aptu.bashor;
 
+import org.apache.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -11,9 +13,15 @@ import java.util.Iterator;
  * Time: 12:10 AM
  */
 public class InfoboxExtractorFromWikiPage implements IWikiPageProcessor, Iterable<String> {
+    public static final Logger LOG = Logger.getLogger(InfoboxExtractorFromWikiPage.class);
     private static final ArrayList<String> infoboxes = new ArrayList<String>();
 
     public Collection<String> processPage(String title, String content) {
+        if (content == null) {
+            LOG.warn("content is null");
+            return null;
+        }
+
         System.out.println(content);
         int infoboxStart = content.indexOf("{{Infobox ");
         if (infoboxStart != -1) {
